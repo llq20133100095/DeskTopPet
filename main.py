@@ -6,6 +6,8 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
 from talk_show import Client
+from transformers.dependency_versions_check import pkgs_to_check_at_runtime
+print(pkgs_to_check_at_runtime)
 
 
 class DesktopPet(QWidget):
